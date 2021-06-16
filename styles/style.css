@@ -1,0 +1,39 @@
+@import "mobile-menu.css";
+@import "banner.css";
+@import "header.css";
+@import "wrapper.css";
+@import "footer.css";
+@import "main.css";
+@import "links.css";
+
+:root {
+  --pink-color: #fc758c;
+  --dark-pink: #ff5672;
+  --dark-gray: #707070;
+  --gray: #cbd6dd;
+  --soft-gray: #f6f6f6;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #d7d7d7;
+  font-family: "Questrial", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    visibility: hidden !important;
+  }
+
+  .nav__menu {
+    visibility: hidden !important;
+  }
+
+  .links {
+    visibility: visible;
+  }
+}

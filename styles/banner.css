@@ -1,0 +1,37 @@
+.banner {
+  height: 100vh;
+  background-color: var(--pink-color);
+  display: flex;
+}
+
+.banner .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner .wrapper h1 {
+  color: white;
+  font-size: xx-large;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 15px;
+  margin-bottom: 50px;
+}
+
+.banner .wrapper p {
+  color: white;
+  letter-spacing: 3px;
+}
+
+.banner .wrapper a {
+  padding: 16px 32px;
+  background-color: white;
+  letter-spacing: 2px;
+  font-size: x-small;
+  color: var(--dark-pink);
+  font-weight: bold;
+  margin-top: 64px;
+  cursor: pointer;
+}

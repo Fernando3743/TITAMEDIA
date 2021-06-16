@@ -1,0 +1,36 @@
+footer {
+  text-align: center;
+  color: var(--gray);
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 40px !important;
+}
+
+footer p {
+  margin-top: 80px;
+}
+
+footer span {
+  color: var(--dark-pink);
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+  padding: 15px 30px;
+  background-color: var(--dark-pink);
+}
+
+.social__media {
+  color: var(--gray);
+  font-size: 20px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.social__media i {
+  margin: 0 18px;
+  cursor: pointer;
+}
