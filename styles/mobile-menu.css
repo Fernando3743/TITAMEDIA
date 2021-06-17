@@ -59,7 +59,7 @@
 .nav__link:hover,
 .nav__link:focus {
   outline: 0;
-  background-color: #ff5672;
+  background-color: var(--dark-pink);
 }
 
 .menuicon {
